@@ -1,0 +1,6 @@
+x <- read.csv("rentcap.csv")
+pdf("rentcap.pdf")
+plot(x[,2:1], main="Immobilien in Auckland (1991)", xlab="Miete", ylab="Wert")
+lm <- lm(x[,1]~x[,2])
+abline(lm, lwd=2)
+dev.off()

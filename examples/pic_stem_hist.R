@@ -1,0 +1,7 @@
+x <- c(32,32,35,36,40,44,47,48,53,57,100,105)
+pdf("pic_stem_hist.pdf", width=10, height=6)
+hist(x, xlab="Merkmalswerte", ylab="", main="")
+s<-capture.output(stem(x, scale=1.5))
+par(family="mono")
+legend("topright", legend=s, title="Stem- and leaf plot", cex=0.75)
+dev.off()
