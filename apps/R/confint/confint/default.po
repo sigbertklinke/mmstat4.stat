@@ -1,0 +1,460 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MM Stat 2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-09 15:14+0200\n"
+"PO-Revision-Date: 2014-08-09 15:15+0100\n"
+"Last-Translator: Sigbert Klinke <sigbert@hu-berlin.de>\n"
+"Language-Team: Sigbert Klinke <sigbert@wiwi.hu-berlin.de>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: dotplot_parameter/server.R:21 dotplot_location/server.R:21
+#: histogram_simple/server.R:14
+msgid "Dataset:"
+msgstr "Dataset:"
+
+# dotplot_location/server.R
+#: dotplot_parameter/server.R:30 dotplot_location/server.R:29
+#, c-format
+msgid "Dotplot (%s) of %s"
+msgstr "Dotplot (%s) of %s"
+
+# dotplot_location/ui.R
+#: dotplot_parameter/ui.R:8
+msgid "Dotplot with parameters"
+msgstr "Dotplot with parameters"
+
+#: dotplot_parameter/ui.R:14 dotplot_location/ui.R:13
+#: visualization_distribution/ui.R:14
+msgid "Select a Dotplot type"
+msgstr "Select a Dotplot type"
+
+#: dotplot_parameter/ui.R:19 dotplot_location/ui.R:18
+#: visualization_distribution/ui.R:24
+msgid "Add mean (aquamarine, dotted)"
+msgstr "Add mean (aquamarine, dotted)"
+
+#: dotplot_parameter/ui.R:23 dotplot_location/ui.R:22
+#: visualization_distribution/ui.R:28
+msgid "Add median (blue, dashed)"
+msgstr "Add median (blue, dashed)"
+
+# dotplot_parameter/ui.R
+#: dotplot_parameter/ui.R:27
+msgid "Add range (orange, dotted)"
+msgstr "Add range (orange, dotted)"
+
+#: dotplot_parameter/ui.R:31
+msgid "Add interquartile range (pink, dashed)"
+msgstr "Add interquartile range (pink, dashed)"
+
+#: dotplot_parameter/ui.R:36 dotplot_location/ui.R:27
+#: visualization_distribution/ui.R:37 histogram_simple/ui.R:22
+msgid "Select a data set and a variable"
+msgstr "Select a data set and a variable"
+
+#: die_game/ui.R:5
+msgid "Die rolling sisters"
+msgstr "Die rolling sisters"
+
+#: die_game/ui.R:10
+msgid "Number of rolls:"
+msgstr "Number of rolls:"
+
+#: die_game/ui.R:16
+msgid "Probability for six with loaded die:"
+msgstr "Probability for six with loaded die:"
+
+#: i18n.R:4
+msgid "overplot"
+msgstr "Overplot"
+
+#: i18n.R:5
+msgid "jitter"
+msgstr "Jitter"
+
+#: i18n.R:6
+msgid "stack"
+msgstr "Stack"
+
+#: i18n.R:9
+msgid "BINOM"
+msgstr "Binomial distribution"
+
+#: i18n.R:10
+msgid "HYPER"
+msgstr "Hypergeometric distribution"
+
+#: i18n.R:11
+msgid "POIS"
+msgstr "Poisson distribution"
+
+#: i18n.R:12
+msgid "EXP"
+msgstr "Exponential distribution"
+
+#: i18n.R:13
+msgid "NORM"
+msgstr "Normal distribution"
+
+#: i18n.R:17
+msgid "CPDF"
+msgstr "Density function"
+
+#: i18n.R:18
+msgid "CCDF"
+msgstr "Cumulative distribution function"
+
+#: i18n.R:19
+msgid "DPDF"
+msgstr "Probability mass function"
+
+#: i18n.R:20
+msgid "DCDF"
+msgstr "Cumulative distribution function"
+
+#: i18n.R:23
+msgid "USCRIME"
+msgstr "U.S. Crime Data"
+
+#: i18n.R:24
+msgid "STATE"
+msgstr "State"
+
+#: i18n.R:25
+msgid "LANDAREA"
+msgstr "Land area"
+
+#: i18n.R:26
+msgid "POPULATION_1985"
+msgstr "Population (1985)"
+
+#: i18n.R:27
+msgid "MURDER"
+msgstr "Murder"
+
+#: i18n.R:28
+msgid "RAPE"
+msgstr "Rape"
+
+#: i18n.R:29
+msgid "ROBBERY"
+msgstr "Robbery"
+
+#: i18n.R:30
+msgid "ASSAULT"
+msgstr "Assault"
+
+#: i18n.R:31
+msgid "BURGLARY"
+msgstr "Burglary"
+
+#: i18n.R:32
+msgid "LARCENY"
+msgstr "Larceny"
+
+#: i18n.R:33
+msgid "CAR_THEFT"
+msgstr "Car theft"
+
+#: i18n.R:34
+msgid "REGION"
+msgstr "Region"
+
+#: i18n.R:35
+msgid "DIVISION"
+msgstr "Division"
+
+#: i18n.R:38
+msgid "CARS"
+msgstr "Car Data"
+
+#: i18n.R:40
+msgid "CARMARK"
+msgstr "Car mark"
+
+#: i18n.R:41
+msgid "PRICE"
+msgstr "Price"
+
+#: i18n.R:42
+msgid "MILEAGE"
+msgstr "Mileage"
+
+#: i18n.R:43
+msgid "REPAIR_RECORD_1978"
+msgstr "Repair record (1978)"
+
+#: i18n.R:44
+msgid "REPAIR_RECORD_1977"
+msgstr "Repair record (1977)"
+
+#: i18n.R:45
+msgid "HEADROOM"
+msgstr "Headroom"
+
+#: i18n.R:46
+msgid "REAR_SEAT_CLARANCE"
+msgstr "Rear seat clarance"
+
+#: i18n.R:47
+msgid "TRUNK_SPACE"
+msgstr "Trunk space"
+
+#: i18n.R:48
+msgid "WEIGHT"
+msgstr "Weight"
+
+#: i18n.R:49
+msgid "LENGTH"
+msgstr "Length"
+
+#: i18n.R:50
+msgid "TURNING_DIAMETER"
+msgstr "Turning diameter"
+
+#: i18n.R:51
+msgid "DISPLACEMENT"
+msgstr "Displacement"
+
+#: i18n.R:52
+msgid "GEAR_RATIO_FOR_HIGH_GEAR"
+msgstr "Gear ratio for high gear"
+
+#: i18n.R:55
+msgid "DECATHLON"
+msgstr "Decathlon Data"
+
+#: i18n.R:56
+msgid "RUN_100M"
+msgstr "Run 100m"
+
+#: i18n.R:57
+msgid "LONG_JUMP"
+msgstr "Long jump"
+
+#: i18n.R:58
+msgid "SHOTPUT"
+msgstr "Shotput"
+
+#: i18n.R:59
+msgid "HIGH_JUMP"
+msgstr "High jump"
+
+#: i18n.R:60
+msgid "RUN_400M"
+msgstr "Run 400m"
+
+#: i18n.R:61
+msgid "HURDLES_110M"
+msgstr "Hurdles 110m"
+
+#: i18n.R:62
+msgid "DISCUS_THROW"
+msgstr "Discus throw"
+
+#: i18n.R:63
+msgid "PLOE_VAULT"
+msgstr "Ploe vault"
+
+#: i18n.R:64
+msgid "JAVELIN"
+msgstr "Javelin"
+
+#: i18n.R:65
+msgid "RUN_1500M"
+msgstr "Run 1500m"
+
+#: i18n.R:66
+msgid "SCORE"
+msgstr "Score"
+
+#: distribution_normal/server.R:37
+#, c-format
+msgid "Density function of EX(&lambda;=%0.1f)"
+msgstr "Density function of EX(&lambda;=%0.1f)"
+
+#: distribution_normal/server.R:44
+#, c-format
+msgid "Cumulative distribution function of EX(&lambda;=%0.1f)"
+msgstr "Cumulative distribution function of EX(&lambda;=%0.1f)"
+
+#: distribution_normal/server.R:60
+#, c-format
+msgid "Density function of N(&mu;=%0.f,&sigma^2;=%0.1f)"
+msgstr "Density function of N(&mu;=%0.f,&sigma^2;=%0.1f)"
+
+#: distribution_normal/server.R:68
+#, c-format
+msgid "Cumulative distribution function of N(&mu;=%0.f,&sigma^2;=%0.1f)"
+msgstr "Cumulative distribution function of N(&mu;=%0.f,&sigma^2;=%0.1f)"
+
+#: distribution_normal/ui.R:10
+msgid "Continuous probability distributions"
+msgstr "Continuous probability distributions"
+
+#: distribution_normal/ui.R:15 distribution_binom/ui.R:15
+msgid "Select a probability distribution"
+msgstr "Select a probability distribution"
+
+#: distribution_normal/ui.R:21 distribution_binom/ui.R:46
+msgid "Parameter (&lambda;)"
+msgstr "Parameter (&lambda;)"
+
+#: distribution_normal/ui.R:30
+msgid "Mean (&mu;)"
+msgstr "Mean (&mu;)"
+
+#: distribution_normal/ui.R:36
+msgid "Variance (&sigma;<sup>2</sup>)"
+msgstr "Variance (&sigma;<sup>2</sup>)"
+
+#: distribution_normal/ui.R:42 distribution_binom/ui.R:52
+msgid "Refit axes"
+msgstr "Refit axes"
+
+#: distribution_normal/ui.R:44 distribution_binom/ui.R:54
+msgid "Show"
+msgstr "Show"
+
+#: monty_hall/ui.R:5
+msgid "Let's Make a Deal"
+msgstr "Let's Make a Deal"
+
+#: monty_hall/ui.R:10
+msgid "Guest points"
+msgstr "Guest points"
+
+# dotplot_location/ui.R
+#: dotplot_location/ui.R:8
+msgid "Dotplot with location parameters"
+msgstr "Dotplot with location parameters"
+
+#: visualization_distribution/server.R:18
+msgid "distText.html"
+msgstr "distText.html"
+
+#: visualization_distribution/server.R:33
+msgid "Histogram"
+msgstr "Histogram"
+
+#: visualization_distribution/server.R:34
+msgid "Boxplot"
+msgstr "Boxplot"
+
+#: visualization_distribution/server.R:35
+msgid "Ecdf"
+msgstr "Empirical cumulative distribution function"
+
+#: visualization_distribution/server.R:47
+#, c-format
+msgid "Dotplot (%s)"
+msgstr "Dotplot (%s)"
+
+#: visualization_distribution/server.R:70 histogram_simple/server.R:30
+msgid "Absolute frequency"
+msgstr "Absolute frequency"
+
+# visualization_distribution/ui.R
+#: visualization_distribution/ui.R:8
+msgid "Variable visualizations"
+msgstr "Variable visualizations"
+
+#: visualization_distribution/ui.R:18
+msgid "Histogram: choose number of bins"
+msgstr "Histogram: choose number of bins"
+
+#: visualization_distribution/ui.R:32 histogram_simple/ui.R:17
+msgid "Show observations"
+msgstr "Show observations"
+
+#: distribution_binom/server.R:10 distribution_binom/ui.R:21
+msgid "Number of draws (n)"
+msgstr "Number of draws (n)"
+
+#: distribution_binom/server.R:19
+msgid "Number of success states in the population (M)"
+msgstr "Number of success states in the population (M)"
+
+#: distribution_binom/server.R:76
+#, c-format
+msgid "Probability mass function of B(n=%.0f, p=%.2f)"
+msgstr "Probability mass function of B(n=%.0f, p=%.2f)"
+
+#: distribution_binom/server.R:84
+#, c-format
+msgid "Cumulative distribution function of B(n=%.0f, p=%.2f)"
+msgstr "Cumulative distribution function of B(n=%.0f, p=%.2f)"
+
+#: distribution_binom/server.R:96
+#, c-format
+msgid "Probability mass function of H(N=%.0f, M=%.0f, n=%.0f)"
+msgstr "Probability mass function of H(N=%.0f, M=%.0f, n=%.0f)"
+
+#: distribution_binom/server.R:105
+#, c-format
+msgid "Cumulative distribution function of H(N=%.0f, M=%.0f, n=%.0f)"
+msgstr "Cumulative distribution function of H(N=%.0f, M=%.0f, n=%.0f)"
+
+#: distribution_binom/server.R:118
+#, c-format
+msgid "Probability mass function of PO(&lambda;=%0.1f)"
+msgstr "Probability mass function of PO(&lambda;=%0.1f)"
+
+#: distribution_binom/server.R:127
+#, c-format
+msgid "Cumulative distribution function of PO(&lambda;=%0.1f)"
+msgstr "Cumulative distribution function of PO(&lambda;=%0.1f)"
+
+#: distribution_binom/ui.R:10
+msgid "Discrete probability distributions"
+msgstr "Discrete probability distributions"
+
+#: distribution_binom/ui.R:27
+msgid "Probability of success per draw (p)"
+msgstr "Probability of success per draw (p)"
+
+#: distribution_binom/ui.R:36
+msgid "Population size (N)"
+msgstr "Population size (N)"
+
+#: helper.R:129
+msgid "LC_ALL"
+msgstr "C"
+
+# histogram_simple/server.R
+#: histogram_simple/server.R:15
+#, c-format
+msgid "Histogram of %s"
+msgstr "Histogram of %s"
+
+# histogram_simple/ui.R
+#: histogram_simple/ui.R:6
+msgid "Simple Histogram"
+msgstr "Simple Histogram"
+
+#: histogram_simple/ui.R:11
+msgid "Number of bins:"
+msgstr "Number of bins:"
+
+#~ msgid "binom"
+#~ msgstr "Binomial distribution"
+
+#~ msgid "hyper"
+#~ msgstr "Hypergeometric distribution"
+
+#~ msgid "pois"
+#~ msgstr "Poisson distribution"
+
+#~ msgid "pdf"
+#~ msgstr "Probability mass function"
+
+#~ msgid "cdf"
+#~ msgstr "Cumulative distribution function"

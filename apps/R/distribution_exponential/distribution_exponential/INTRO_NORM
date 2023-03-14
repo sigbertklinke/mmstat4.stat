@@ -1,0 +1,1 @@
+A random variable with a normal distribution can take all values between -&infin; and +&infin;. The parameter &mu; specifies the location of the distribution. If we change the parameter &mu;, the location of the distribution will shift but its shape remains the same. By increasing or decreasing the parameter &sigma;, the density &quot;spreads&quot; or &quot;concentrates&quot;. 
